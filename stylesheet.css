@@ -124,6 +124,11 @@ h3 {
   margin-left: 3.5px;
 }
 
+/* 賞タイトル＋補足（as a co-author など）の隙間 */
+.award-note {
+  margin-left: 0.1em;
+}
+
 .papertitle {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 14px;
