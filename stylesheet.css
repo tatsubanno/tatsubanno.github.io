@@ -89,7 +89,7 @@ strong {
   font-size: 14px;
 }
 
-/* h2: セクション見出し */
+/* h2: section heading */
 h2 {
   margin: 0;
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
@@ -97,12 +97,12 @@ h2 {
   font-weight: bold;
 }
 
-/* h3: サブ見出し */
+/* h3: subheading */
 h3 {
   margin-bottom: 0;
 }
 
-/* p: Awards, Scholarship, etc. の説明用 */
+/* p: descriptions for Awards, Scholarship, etc. */
 .award-block p,
 .scholarship-block p {
   margin: 0;
@@ -119,18 +119,29 @@ h3 {
   text-align: center;
 }
 
-/* 日付＋webpageリンクの隙間 */
+/* gap between date and webpage link */
 .webpage-link {
   margin-left: 3.5px;
 }
 
-/* 賞タイトル＋補足（as a co-author など）の隙間 */
+/* gap between award title and note (e.g., "as a co-author") */
 .award-note {
   margin-left: 0.1em;
 }
 
+/* .papertitle: bold paper titles */
 .papertitle {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 700;
+}
+
+/* td img: remove inline gap below images */
+td img {
+  display: block;
+}
+
+/* td p: remove trailing space in table cells */
+td p:last-child {
+  margin-bottom: 0;
 }
